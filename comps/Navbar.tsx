@@ -1,5 +1,5 @@
-import { AppBar,Box, Button, Toolbar, Typography,Container,IconButton,Drawer,ListItemButton,ListItemText,List,ListItem,ListItemIcon,Divider } from "@mui/material";
-import MenuIcon from '@material-ui/icons';
+import { AppBar,Fab,Box, Button, Toolbar, Typography,Container,IconButton,Drawer,ListItemButton,ListItemText,List,ListItem,ListItemIcon,Divider } from "@mui/material";
+import MenuIcon from '@mui/icons-material/Menu';
 import {useState,useEffect} from 'react'
 import Link from "next/link";
 
@@ -73,7 +73,9 @@ const Navbar = ({}) => {
                                         <MenuIcon />
                                 </IconButton> */}
                                 <Button onClick={handleDrawerOpen}>
-                                        press
+                                        <Fab color="primary" aria-label="edit">
+                                                <MenuIcon />
+                                        </Fab>
                                 </Button>
                                 <Drawer
                                         {...{

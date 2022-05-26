@@ -7,7 +7,7 @@ function Header() {
   return (
     <Box>
         <Typography variant="h1">
-            <div style={{height:"100px"}}></div>
+            <div style={{height:"100px",background:"black"}}></div>
         </Typography>
     </Box>
   )
