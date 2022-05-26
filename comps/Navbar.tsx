@@ -87,12 +87,19 @@ const Navbar = ({}) => {
                                 <List>
                                         <ListItem disablePadding>
                                                 <ListItemButton>
-                                                        <ListItemText primary="Home" />
+                                                        <Link href="/" >
+                                                                <ListItemText primary="Home" />
+                                                                {/* <Button variant="contained" size="medium" sx={{fontSize:"18px",margin:3,background:"rgba(66, 245, 236,0.1)"}} color="info">
+                                                                        home
+                                                                </Button> */}
+                                                        </Link>
                                                 </ListItemButton>
                                         </ListItem>
                                         <ListItem disablePadding>
                                                 <ListItemButton>
-                                                        <ListItemText primary="Roadmap" />
+                                                        <Link href="/roadmap" >
+                                                                <ListItemText primary="Roadmap" />
+                                                        </Link>
                                                 </ListItemButton>
                                         </ListItem>
                                         <ListItem disablePadding>
@@ -100,12 +107,12 @@ const Navbar = ({}) => {
                                                         <ListItemText primary="sth else" />
                                                 </ListItemButton>
                                         </ListItem>
-                                        <ListItem disablePadding>
+                                        <ListItem disablePadding component="a" href="https://discord.gg/vKaB2B8v">
                                                 <ListItemButton>
                                                         <ListItemText primary="Discord" />
                                                 </ListItemButton>
                                         </ListItem>
-                                        <ListItem disablePadding>
+                                        <ListItem disablePadding >
                                                 <ListItemButton>
                                                         <ListItemText primary="Twitter" />
                                                 </ListItemButton>

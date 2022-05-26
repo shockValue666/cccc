@@ -2,11 +2,13 @@ import { Button, Dialog, DialogTitle, DialogContent, DialogContentText, DialogAc
 import React,{useState} from 'react'
 import PhaseAccordeon from './PhaseAccordeon';
 
+
+
 function PhaseModal() {
     const [open,setOpen]=useState(false)
   return (
     <div>
-        <Button sx={{color:"white" ,fontSize:"30px"}} onClick={()=>{setOpen(true)}}>
+        <Button sx={{color:"white",background: "none" ,fontSize:"30px", '&:hover': {background: "black",}}} variant="contained" onClick={()=>{setOpen(true)}}>
             p∫∫∫∫∫∫∫1
         </Button>
       <Dialog open={open} onClose={()=>{setOpen(false)}} maxWidth="xl"> 

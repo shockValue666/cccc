@@ -6,7 +6,7 @@ function PhaseModal2() {
     const [open,setOpen]=useState(false)
   return (
     <div>
-        <Button sx={{color:"white" ,fontSize:"30px"}} onClick={()=>{setOpen(true)}}>
+        <Button sx={{color:"white",background: "none" ,fontSize:"30px", '&:hover': {background: "black",}}} variant="contained" onClick={()=>{setOpen(true)}}>
             p∫∫∫∫∫∫∫2
         </Button>
       <Dialog open={open} onClose={()=>{setOpen(false)}} maxWidth="xl"> 

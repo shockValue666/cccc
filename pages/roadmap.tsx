@@ -8,7 +8,7 @@ import BottomPic from '../comps/p1/BottomPic'
 
 function roadmapMain() {
   return (
-      <div style={{background:"black",color:"white"}}>
+      <div style={{background:"black",color:"white",padding:"2%"}}>
       <Navbar/>
       <Header/>
 
@@ -21,7 +21,7 @@ function roadmapMain() {
 
       <RoadMapExplained/>
 
-    <div>roadmapMain</div>
+
     <BottomPic/>
     <Footer/>
     </div>

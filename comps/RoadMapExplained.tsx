@@ -11,7 +11,9 @@ function RoadMapExplained() {
     direction="row"
     justifyContent="space-around"
     alignItems="center"
+    alignContent="flex-start"
     flexWrap={"wrap"}
+    rowGap="60px"
     >
 
       <Box

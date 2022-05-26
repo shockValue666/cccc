@@ -1,12 +1,15 @@
-import { Button, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions } from '@mui/material'
+import { Button,Box,Container, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions } from '@mui/material'
 import React,{useState} from 'react'
 import PhaseAccordeon from './PhaseAccordeon';
 
 function PhaseModal3() {
     const [open,setOpen]=useState(false)
+    const changeState = () => {
+      setOpen(true)
+    }
   return (
-    <div>
-        <Button sx={{color:"white" ,fontSize:"30px"}} onClick={()=>{setOpen(true)}}>
+    <div onClick={()=>changeState()}>
+        <Button sx={{color:"white",background: "none" ,fontSize:"30px", '&:hover': {background: "black",}}} variant="contained" onClick={()=>{setOpen(true)}}>
             p∫∫∫∫∫∫∫3
         </Button>
       <Dialog open={open} onClose={()=>{setOpen(false)}} maxWidth="xl"> 
