@@ -8,7 +8,7 @@ function PhaseModal3() {
       setOpen(true)
     }
   return (
-    <div onClick={()=>changeState()}>
+    <div>
         <Button sx={{color:"white",background: "none" ,fontSize:"30px", '&:hover': {background: "black",}}} variant="contained" onClick={()=>{setOpen(true)}}>
             p∫∫∫∫∫∫∫3
         </Button>
