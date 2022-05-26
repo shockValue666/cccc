@@ -6,7 +6,7 @@ import React from 'react'
 function RoadMap() {
 
         return (<div style={{paddingBottom:"7%"}} >
-            <h1>roadmap</h1>
+            <h1 style={{paddingLeft:"5%"}} >roadmap</h1>
             <VerticalTimeline>
                 {roadmapElements.map(el=>{
                     let isWorkIcon = el.icon === "work";
