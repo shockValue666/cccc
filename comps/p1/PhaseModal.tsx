@@ -9,7 +9,7 @@ function PhaseModal() {
         <Button sx={{color:"white" ,fontSize:"30px"}} onClick={()=>{setOpen(true)}}>
             p∫∫∫∫∫∫∫1
         </Button>
-      <Dialog open={open} onClose={()=>{setOpen(false)}} maxWidth="100vw"> 
+      <Dialog open={open} onClose={()=>{setOpen(false)}} maxWidth="xl"> 
             {/* <DialogTitle>This is my cock</DialogTitle>
             <DialogContent>
                 <DialogContentText>
